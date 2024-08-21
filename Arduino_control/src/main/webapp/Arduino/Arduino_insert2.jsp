@@ -26,7 +26,7 @@
 	// 자료 수정1
 	boolean result2 = ArduinoDao.Arduino_Update1(Arduino1Dto);
 	// 자료 수정2
-	//boolean result3 = ArduinoDao.Arduino_Update2(Arduino1Dto);
+	boolean result3 = ArduinoDao.Arduino_Update2(Arduino1Dto);
 %>
 
 <!DOCTYPE html>
