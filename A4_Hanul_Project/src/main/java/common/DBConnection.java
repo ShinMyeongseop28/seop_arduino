@@ -1,4 +1,4 @@
-package Android;
+package common;
 
 /**
  * Copyright(c) 2001 iSavvix Corporation (http://www.isavvix.com/)
@@ -39,10 +39,16 @@ import java.util.Vector;
 public class DBConnection {
     private Vector connections = new Vector(10);
     private String _driver = "org.gjt.mm.mysql.Driver",
-//	_url = "jdbc:mysql://localhost:3306/hanul?useUnicode=true&characterEncoding=UTF-8&useSSL=false",
+	//_url = "jdbc:mysql://localhost:3306/hanul?useUnicode=true&characterEncoding=UTF-8&useSSL=false",
     _url = "jdbc:mysql://192.168.0.6:3306/hanul?useUnicode=true&characterEncoding=UTF-8&useSSL=false",
     _user = "root",
-    _password = "159357";
+    _password = "123456";
+
+    
+    //_url = "jdbc:mysql://jiguin1175.cafe24.com:3306/jiguin1175?useUnicode=true&characterEncoding=UTF-8",
+    //_url = "jdbc:mysql://localhost:3306/jiguin1175?useUnicode=true&characterEncoding=UTF-8",
+    //_user = "jiguin1175",
+    //_password = "jsp1175!!";
 
     private boolean _traceOn = false;
     private boolean initialized = false;

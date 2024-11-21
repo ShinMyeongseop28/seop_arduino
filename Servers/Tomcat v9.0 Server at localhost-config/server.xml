@@ -160,7 +160,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="Arduino_control" path="/Arduino_control" reloadable="true" source="org.eclipse.jst.jee.server:Arduino_control"/><Context docBase="Test_arduino" path="/Test_arduino" reloadable="true" source="org.eclipse.jst.jee.server:Test_arduino"/><Context docBase="A0_Hanul_Android" path="/A0_Hanul_Android" reloadable="true" source="org.eclipse.jst.jee.server:A0_Hanul_Android"/><Context docBase="A4_Hanul_Project" path="/A4_Hanul_Project" reloadable="true" source="org.eclipse.jst.jee.server:A4_Hanul_Project"/><Context docBase="Test_android" path="/Test_android" reloadable="true" source="org.eclipse.jst.jee.server:Test_android"/></Host>
+      <Context docBase="Arduino_control" path="/Arduino_control" reloadable="true" source="org.eclipse.jst.jee.server:Arduino_control"/><Context docBase="Test_arduino" path="/Test_arduino" reloadable="true" source="org.eclipse.jst.jee.server:Test_arduino"/><Context docBase="A4_Hanul_Project" path="/A4_Hanul_Project" reloadable="true" source="org.eclipse.jst.jee.server:A4_Hanul_Project"/><Context docBase="Test_android" path="/Test_android" reloadable="true" source="org.eclipse.jst.jee.server:Test_android"/></Host>
     </Engine>
   </Service>
 </Server>
